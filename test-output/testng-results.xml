@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-16T23:40:23 EST" name="Default suite" finished-at="2021-11-16T23:40:32 EST" duration-ms="8661">
+    <groups>
+    </groups>
+    <test started-at="2021-11-16T23:40:23 EST" name="Default test" finished-at="2021-11-16T23:40:32 EST" duration-ms="8661">
+      <class name="craigslist.TestSearchPrius">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:craigslist.TestSearchPrius@1bb266b3]" started-at="2021-11-16T23:40:23 EST" name="setUpClass" finished-at="2021-11-16T23:40:29 EST" duration-ms="5442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="TestStartSearching()[pri:0, instance:craigslist.TestSearchPrius@1bb266b3]" started-at="2021-11-16T23:40:29 EST" name="TestStartSearching" finished-at="2021-11-16T23:40:31 EST" duration-ms="2517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestStartSearching -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:craigslist.TestSearchPrius@1bb266b3]" started-at="2021-11-16T23:40:31 EST" name="tearDown" finished-at="2021-11-16T23:40:32 EST" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- craigslist.TestSearchPrius -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
