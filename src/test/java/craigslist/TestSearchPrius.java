@@ -18,7 +18,7 @@ public class TestSearchPrius {
 	public static void setUpClass() {
 
 		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		driver = new ChromeDriver() ;
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://tampa.craigslist.org/search/cta?");
