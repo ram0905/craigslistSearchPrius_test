@@ -7,17 +7,20 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
-    WebDriver driver = new ChromeDriver();
+
+    protected WebDriver driver = new ChromeDriver();
 
     @BeforeTest
     public void setUp() {
-//   	WebDriverManager.chromedriver().setup();
+        WebDriverManager.chromedriver().setup();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @AfterTest
     public void tearDown() {
-        driver.quit();
+//        if (driver != null) {
+            driver.quit();
+        }
     }
-}
+

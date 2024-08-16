@@ -7,6 +7,8 @@ import org.testng.annotations.*;
 
 
 public class TestSearchPrius extends BaseTest{
+
+
 	@Test
 	public void TestStartSearching() {
 		//		enter searching Data
@@ -20,10 +22,7 @@ public class TestSearchPrius extends BaseTest{
 
 
 
-	@Test
-	public void validSearchResult(){
 
-	}
 }
 
 
